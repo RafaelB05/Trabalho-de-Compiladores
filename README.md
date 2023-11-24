@@ -8,10 +8,11 @@ Abaixo segue uma breve descrição da linguagem desenvolvida para disciplina
     * Tipo Inteiro: coletado
     * Tipo Real: dolar
     * Tipo String: juiz
+    * Tipo Boolean: distancia (verdadeiro = lucas, falso = bryan)
 
 * Abre e fecha bloco:
-    * abre: /
-    * fecha:\
+    * abre: (
+    * fecha: )
 
 * Operadores Aritiméticos:
     * Adição:  \+ 
