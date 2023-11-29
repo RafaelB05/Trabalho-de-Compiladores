@@ -1,1 +1,16 @@
-coletado bryan <- 15::
+int n = 10;
+
+int f1 = 1;
+int f2 = 3;
+
+int i = 2;
+while(i < n){
+    int aux = f1 + f2;
+    f1 = f2;
+    f2 = aux;
+    i = i + 1;
+}
+
+if(f2 == 10){
+    print(4);
+}

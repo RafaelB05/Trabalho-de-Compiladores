@@ -1,8 +1,8 @@
 import java.io.IOException;
 
-import org.antlr.v4.runtime.Token;
-import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CharStream;
+import org.antlr.v4.runtime.CharStreams;
+import org.antlr.v4.runtime.Token;
 
 public class HphLexer {
     public static void main(String[] args){
@@ -20,3 +20,5 @@ public class HphLexer {
         }
     }
 }
+
+

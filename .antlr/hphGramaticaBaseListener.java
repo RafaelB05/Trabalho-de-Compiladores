@@ -1,4 +1,4 @@
-// Generated from hphGramatica.g4 by ANTLR 4.13.1
+// Generated from d:/Ufla/Compiladores/Trabalho-de-Compiladores/hphGramatica.g4 by ANTLR 4.13.1
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
@@ -11,18 +11,6 @@ import org.antlr.v4.runtime.tree.TerminalNode;
  */
 @SuppressWarnings("CheckReturnValue")
 public class hphGramaticaBaseListener implements hphGramaticaListener {
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterProgram(hphGramaticaParser.ProgramContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitProgram(hphGramaticaParser.ProgramContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -107,18 +95,6 @@ public class hphGramaticaBaseListener implements hphGramaticaListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitRepet(hphGramaticaParser.RepetContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterPrint(hphGramaticaParser.PrintContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitPrint(hphGramaticaParser.PrintContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

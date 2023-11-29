@@ -1,4 +1,4 @@
-// Generated from hphGramatica.g4 by ANTLR 4.13.1
+// Generated from d:/Ufla/Compiladores/Trabalho-de-Compiladores/hphGramatica.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
@@ -6,16 +6,6 @@ import org.antlr.v4.runtime.tree.ParseTreeListener;
  * {@link hphGramaticaParser}.
  */
 public interface hphGramaticaListener extends ParseTreeListener {
-	/**
-	 * Enter a parse tree produced by {@link hphGramaticaParser#program}.
-	 * @param ctx the parse tree
-	 */
-	void enterProgram(hphGramaticaParser.ProgramContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link hphGramaticaParser#program}.
-	 * @param ctx the parse tree
-	 */
-	void exitProgram(hphGramaticaParser.ProgramContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link hphGramaticaParser#statement}.
 	 * @param ctx the parse tree
@@ -86,14 +76,4 @@ public interface hphGramaticaListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitRepet(hphGramaticaParser.RepetContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link hphGramaticaParser#print}.
-	 * @param ctx the parse tree
-	 */
-	void enterPrint(hphGramaticaParser.PrintContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link hphGramaticaParser#print}.
-	 * @param ctx the parse tree
-	 */
-	void exitPrint(hphGramaticaParser.PrintContext ctx);
 }
