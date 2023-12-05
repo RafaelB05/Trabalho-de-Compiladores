@@ -1,16 +1,16 @@
-int n = 10;
+cheio a <- 0::
+cheio b <- 1::
+cheio n <- 10::
+cheio i <- 0::
 
-int f1 = 1;
-int f2 = 3;
-
-int i = 2;
-while(i < n){
-    int aux = f1 + f2;
-    f1 = f2;
-    f2 = aux;
-    i = i + 1;
+durante (i < n) {
+    durante (i < n) {
+        registre(a)::
+        cheio temp <- a::
+        a <- b::
+        b <- temp + b::
+        i <- i + 1::
+    }
 }
 
-if(f2 == 10){
-    print(4);
-}
+

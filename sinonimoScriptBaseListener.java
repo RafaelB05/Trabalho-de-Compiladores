@@ -1,124 +1,124 @@
-// Generated from hphGramatica.g4 by ANTLR 4.13.1
+// Generated from sinonimoScript.g4 by ANTLR 4.13.1
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
 /**
- * This class provides an empty implementation of {@link hphGramaticaListener},
+ * This class provides an empty implementation of {@link sinonimoScriptListener},
  * which can be extended to create a listener which only needs to handle a subset
  * of the available methods.
  */
 @SuppressWarnings("CheckReturnValue")
-public class hphGramaticaBaseListener implements hphGramaticaListener {
+public class sinonimoScriptBaseListener implements sinonimoScriptListener {
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterProgram(hphGramaticaParser.ProgramContext ctx) { }
+	@Override public void enterNProgram(sinonimoScriptParser.NProgramContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitProgram(hphGramaticaParser.ProgramContext ctx) { }
+	@Override public void exitNProgram(sinonimoScriptParser.NProgramContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterStatement(hphGramaticaParser.StatementContext ctx) { }
+	@Override public void enterNStatement(sinonimoScriptParser.NStatementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitStatement(hphGramaticaParser.StatementContext ctx) { }
+	@Override public void exitNStatement(sinonimoScriptParser.NStatementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterExpl(hphGramaticaParser.ExplContext ctx) { }
+	@Override public void enterNExpressaoLogica(sinonimoScriptParser.NExpressaoLogicaContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitExpl(hphGramaticaParser.ExplContext ctx) { }
+	@Override public void exitNExpressaoLogica(sinonimoScriptParser.NExpressaoLogicaContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterExp(hphGramaticaParser.ExpContext ctx) { }
+	@Override public void enterNExpressao(sinonimoScriptParser.NExpressaoContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitExp(hphGramaticaParser.ExpContext ctx) { }
+	@Override public void exitNExpressao(sinonimoScriptParser.NExpressaoContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterDec(hphGramaticaParser.DecContext ctx) { }
+	@Override public void enterNAtribuicao(sinonimoScriptParser.NAtribuicaoContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitDec(hphGramaticaParser.DecContext ctx) { }
+	@Override public void exitNAtribuicao(sinonimoScriptParser.NAtribuicaoContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterAtr(hphGramaticaParser.AtrContext ctx) { }
+	@Override public void enterNDeclaracao(sinonimoScriptParser.NDeclaracaoContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitAtr(hphGramaticaParser.AtrContext ctx) { }
+	@Override public void exitNDeclaracao(sinonimoScriptParser.NDeclaracaoContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterCond(hphGramaticaParser.CondContext ctx) { }
+	@Override public void enterCondicional(sinonimoScriptParser.CondicionalContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitCond(hphGramaticaParser.CondContext ctx) { }
+	@Override public void exitCondicional(sinonimoScriptParser.CondicionalContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterRepet(hphGramaticaParser.RepetContext ctx) { }
+	@Override public void enterRepeticao(sinonimoScriptParser.RepeticaoContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitRepet(hphGramaticaParser.RepetContext ctx) { }
+	@Override public void exitRepeticao(sinonimoScriptParser.RepeticaoContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterPrint(hphGramaticaParser.PrintContext ctx) { }
+	@Override public void enterNPrint(sinonimoScriptParser.NPrintContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitPrint(hphGramaticaParser.PrintContext ctx) { }
+	@Override public void exitNPrint(sinonimoScriptParser.NPrintContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
