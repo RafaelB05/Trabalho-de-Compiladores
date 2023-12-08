@@ -17,7 +17,7 @@ public class CompiladorSinonimoScript {
 
         ParseTreeWalker.DEFAULT.walk(listener, ast);
 
-        System.out.println(listener.getTabelaSimbolos().toString());
+       System.out.println(listener.getTabelaSimbolos().toString());
     }
 
     private static sinonimoScriptParser getParser(String filename){

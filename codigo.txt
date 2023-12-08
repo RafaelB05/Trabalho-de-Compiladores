@@ -1,13 +1,31 @@
-cheio num <- 10 ::
-cheio num1 <- 0 :: 
-cheio num2 <- 1 :: 
+cheio numero <- 17 ::
+loob ehPrimo <- gg ::
+cheio divisor <- 2 ::
 
-registre(num1)::
-durante (num > 1) {
-    cheio temp <- num1 + num2 :: 
-    num1 <- num2 :: 
-    num2 <- temp :: 
-    registre (num1) :: 
-    x <- 2::
-    num <- num - 1 :: 
+assumindo (numero < 1) {
+    risca res <- "nao"::
+    registre(res) ::
+} 
+entretanto {
+    assumindo (numero > 2) {
+        durante (divisor < numero && ehPrimo) {
+            numero  <- numero % divisor::
+            assumindo ( numero >< 0) {
+                ehPrimo <- ff ::
+            } entretanto {
+                divisor <- divisor + 1 ::
+            }
+        }
+        risca prim <- "sim"::
+
+        assumindo (ehPrimo) {
+            registre(prim) ::
+        } entretanto {
+            registre(res) ::
+        }
+    } entretanto {
+        registre(prim) ::
+    }
 }
+
+
