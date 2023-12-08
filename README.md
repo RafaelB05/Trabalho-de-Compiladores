@@ -1,39 +1,50 @@
-# Trabalho da Disciplina de Compiladores GCC130
+# SinonimoScript
+Trabalho de Compiladores - GCC130 - 2023/2 - UFLA
 
-## A linguagem desenvolvida para a disciplina foi: HPH
+## Descrição Geral da Linguagem
+* Tipos:
+  * Inteiro: cheio
+  * Real: exato
+  * Texto: risca
+  * Booleano: loob (verdadeiro: gg, falso: ff)
 
-Abaixo segue uma breve descrição da linguagem desenvolvida para disciplina
+* Abertura e fechamento de bloco:
+  * Abertura: {
+  * Fechamento: }
 
-* Tipos Permitidos:
-    * Tipo Inteiro: coletado
-    * Tipo Real: dolar
-    * Tipo String: juiz
-    * Tipo Boolean: distancia (verdadeiro = lucas, falso = bryan)
+* Operadores Aritméticos:
+  * Adição: +
+  * Subtração: -
+  * Multiplicação: *
+  * Divisão: /
+  * Módulo: %
 
-* Abre e fecha bloco:
-    * abre: (
-    * fecha: )
+* Operadores Relacionais:
+  * Igualdade: ><
+  * Diferença: <>
+  * Maior que: >
+  * Menor que: <
 
-* Operadores Aritiméticos:
-    * Adição:  \+ 
-    * Subtração:  \- 
-    * Multiplicação:  \*  
-    * Divisão:  |
-    * Mod: %
 * Operadores Lógicos:
-    * And: ><
-    * Or: <>
-    * Maior que: >
-    * Menor que: <
-    * Igual: =?
+  * And: &&
+  * Or: ||
+
 * Operador de Atribuição:
-    * Atribuição: <-
+   *  <-
 
-* Fim de linha:
-    * Fim de linha: ::
-    
-* Estruturas
-    * Condicional if: ahh
-    * Condicional else: colecao:
-    * Repetição while: quando?
+* Fim de linha: ::
 
+* Estruturas:
+  * Condicional if: assumindo
+  * Condicional else: entretanto
+  * Repetição while: durante
+  * Print: registre
+ 
+* Parênteses:
+  * Abre parênteses: (
+  * Fecha parênteses: )
+ 
+* Representações:
+  * Variável: [a-zA-z] ([0-9] | [a-zA-z])*
+  * Número: [0-9]+ (',' [0-9]+)?
+  * String: '"' ([a-zA-z] | [0-9])* "'
