@@ -1,16 +1,13 @@
-cheio a <- 0::
-cheio b <- 1::
-cheio n <- 10::
-cheio i <- 0::
+cheio num <- 10 ::
+cheio num1 <- 0 :: 
+cheio num2 <- 1 :: 
 
-durante (i < n) {
-    durante (i < n) {
-        registre(a)::
-        cheio temp <- a::
-        a <- b::
-        b <- temp + b::
-        i <- i + 1::
-    }
+registre(num1)::
+durante (num > 1) {
+    cheio temp <- num1 + num2 :: 
+    num1 <- num2 :: 
+    num2 <- temp :: 
+    registre (num1) :: 
+    x <- 2::
+    num <- num - 1 :: 
 }
-
-
